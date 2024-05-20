@@ -23,6 +23,6 @@ module.exports = {
     const hours = Math.floor((uptime / (60 * 60)) % 24);
     const days = Math.floor(uptime / (60 * 60 * 24));
     const uptimeString = `${hours} hours ${minutes} minutes ${seconds} second`;
-    api.sendMessage(`🧑‍🏫|𝗬𝗼 𝗺𝗼𝗻 𝘀𝗲𝗶𝗴𝗻𝗲𝘂𝗿📑 \n___________________\n, 🎀 𝗗𝗔𝗥𝗞𝗡𝗘𝗦𝗦 𝘼𝙎 𝘽𝙀𝙀𝙉 𝙍𝙐𝙉𝙄𝙉𝙂 𝙁𝙊𝙍 \n____________________\n [⏰${uptimeString}]\n\n______________________🌹𝗭𝗘𝗨𝗦 𝗭𝗘𝗡𝗢🌹.`, event.threadID);
+    api.sendMessage(`🧑‍🏫|C'EST Simple 📑 \n___________________\n, ♣️ La sécurité à été renforcé Mr 🛡️\n____________________\n [⏰${uptimeString}]\n\n______________________♣️ HÔTEL TRANSYLVANIE ♣️.`, event.threadID);
   }
 };
