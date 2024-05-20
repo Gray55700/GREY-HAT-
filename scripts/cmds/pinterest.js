@@ -36,7 +36,7 @@ module.exports = {
   {
  
     const keySearch = args.join(" ");
-    if(keySearch.includes("-") == false) return api.sendMessage('ↈ༈ 𝘿𝘼𝙍𝙆𝙉𝙀𝙎𝙎 ༈ↈ\n_______________________________\n 𝙀𝙭𝙚𝙢𝙥𝙡𝙚 : 𝙋𝙞𝙣𝙩𝙚𝙧𝙚𝙨𝙩 𝙋𝘼𝙄𝙉 - 10\n (Ç𝐀 𝐃𝐄𝐏𝐀𝐍𝐃 𝐃𝐔 𝐍𝐎𝐌𝐁𝐑𝐄 𝐃.𝐈𝐌𝐀𝐆𝐄 𝐐𝐔𝐄 𝐕𝐎𝐔𝐒 𝐕𝐎𝐔𝐋𝐄𝐙 )🧑‍🦯💔🏴‍☠️', event.threadID, event.messageID)
+    if(keySearch.includes("-") == false) return api.sendMessage('➳ ᴅᴀʀᴋᴇɴ ɢʀᴇʏ ❦\n_______________________________\n ᴇxᴇᴍᴘʟᴇ : ᴘʀɪɴᴛᴇʀᴇsᴛ ᴘᴀɪɴ - 10\n (ᴄ̧ᴀ ᴅᴇᴘᴀɴᴛ ᴅᴜ ɴᴏᴍʙʀᴇ ᴅ'ɪᴍᴀɢᴇ ǫᴜᴇ ᴠᴏᴜs ᴠᴏᴜʟᴇᴢ)🧑‍🦯💔🏴‍☠️', event.threadID, event.messageID)
     const keySearchs = keySearch.substr(0, keySearch.indexOf('-'))
     let numberSearch = keySearch.split("-").pop() || 6
     if(numberSearch>20){
@@ -54,7 +54,7 @@ module.exports = {
     }
     api.sendMessage({
         attachment: imgData,
-        body: numberSearch + '-- 𝙍𝙀𝙎𝙐𝙇𝙏 --🌹:\n '+ keySearchs
+        body: numberSearch + '-- ʀᴇsᴜʟᴛᴀᴛ --🔱❇️:\n '+ keySearchs
     }, event.threadID, event.messageID)
     for (let ii = 1; ii < parseInt(numberSearch); ii++) {
         fs.unlinkSync(__dirname + `/tmp/${ii}.jpg`)
