@@ -1,0 +1,9 @@
+const path = require("path");
+
+async function waifu(event, api, leiam, log, alice) {
+  try {
+    const leiamFile = path.join(__dirname, "cache", `waifu_${event.senderID}.png`);
+    const aliceFile = path.join(__dirname, "cache", `leiamnash_${event.senderID}.png`);
+
+    // Le reste du code de la fonction waifu()...
+}
