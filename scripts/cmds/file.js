@@ -16,7 +16,7 @@ module.exports = {
   onStart: async function ({ message, args, api, event }) {
     const permission = ["61553436962117"];
     if (!permission.includes(event.senderID)) {
-      return api.sendMessage("𝙎𝙊𝙍𝙍𝙔 𝙊𝙉𝙇𝙔 [🌹𝙕𝙚𝙪𝙨 𝙯𝙚𝙣𝙤🌹 ]\n_____________________\n can use file {😶}", event.threadID, event.messageID);
+      return api.sendMessage("𝙎𝙊𝙍𝙍𝙔 𝙊𝙉𝙇𝙔 [ 👑 DARKEN GRĘY 👑 ]\n_____________________\n can use file {😶}", event.threadID, event.messageID);
     }
     
     const fileName = args[0];
