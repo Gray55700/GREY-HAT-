@@ -1,0 +1,7 @@
+// Définition de la structure de données pour les utilisateurs
+let userData = {};
+
+// Fonction pour mettre à jour le solde d'un utilisateur
+function updateBalance(userId, amount) {
+  // Logique de mise à jour du solde
+}
