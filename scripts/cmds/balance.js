@@ -25,7 +25,7 @@ module.exports = {
 			moneyOf: "%1 đang có %2$"
 		},
 		en: {
-			money: " 📜|𝙔𝙊𝙐 𝙃𝘼𝙑𝙀 {%1$}💲\n____________________________\n 🏦𝙔𝙊𝙐𝙍 𝘼𝘾𝘾𝙊𝙐𝙉𝙏 🏦 ",
+			money: " 📜|YOU HAVE {%1$}💲\n༶•┈┈⛧┈♛ ♛┈⛧┈┈•༶\n 🏦 YOUR ACCOUNT 🏦 ",
 			moneyOf: "%1 has %2$"
 		}
 	},
