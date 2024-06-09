@@ -24,8 +24,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "♣️ Đ₳Ɽ₭Ɇ₦ ₲ⱤɆɎ ♣️",
-  "prefix": "#",
+  "nickNameBot": "ஜ DARKEN GREY-HAT ஜ",
+  "prefix": "~",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
